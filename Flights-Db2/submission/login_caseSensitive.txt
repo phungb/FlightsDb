@@ -1,0 +1,11 @@
+# case sensitive account login
+# Terminal 1
+create user1 user1 100
+login USER1 USER1
+quit
+*
+# Terminal 1 fails in user creation
+Created user user1
+Logged in as USER1
+Goodbye
+*
